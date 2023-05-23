@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Timer;
+    src: url(texts/CursedTimer.ttf);
+}
+@font-face {
+    font-family: Lucky;
+    src: url(texts/LuckiestGuy.ttf);
+}
+@font-face {
+    font-family: BloggerLight;
+    src: url(texts/BloggerSans-Light.ttf);
+}
+@font-face {
+    font-family: BloggerBold;
+    src: url(texts/BloggerSans-Bold.ttf);
+}
+
+body, p {
+    margin: 0px 54px;
+    height: 100vh;
+    max-width: 2800px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: start;
+    align-items: center;
+    background: url(bball_background2.png);
+    background-color: #157A37;
+    background-size:   clamp(400px, 100%, 140vh);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    color: #B9F2CD;
+    font-size: 12px;
+    }
+    
+.control-container {
+    margin: 20px 10px 0px 15px;
+    padding:0px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#newgame-button{
+    border:0px;
+    background: #B9F3CD;
+    border-radius: 5px;
+    color: #157A37;
+    width: 50px; 
+    height: 100%;
+    margin: 0px 5px 0px 0px;
+    font-size: 15px;
+    font-family: BloggerBold;
+}
+
+#newgame-button:hover{
+    box-shadow:0px 0px 3px 3px whitesmoke;
+    margin: 0px 0px 0px 0px;
+    background: #B9F3CD;
+    border-radius: 5px
+}
+#pause-button{
+    border:0px;
+    background: #FFD88A;
+    border-radius: 5px;
+    color: #D89000;
+    width:50px; 
+    height: 100%;
+    margin: 0px 5px;
+    font-size: 15px;
+    font-family: BloggerBold;
+}
+
+#pause-button:hover{
+    box-shadow:0px 0px 3px 3px whitesmoke;
+    background: #FFD88A;
+}
+
+.timer-container{
+    margin: 0px;
+    height:  100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: start;
+}
+
+#timer {
+    margin: 0px 0px 5px 5px;
+    background: whitesmoke;
+    border-radius: 5px;
+    color: #157A37;
+    width:225px; 
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    font-size: 55px;
+    font-family: BloggerBold;
+}
+
+.timer-button-container {
+    
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #157A37;
+    width:20px; 
+    height:100%;
+    
+    font-size: 10px;
+    font-family: BloggerBold;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.timer-buttons {
+    border:0;
+    border-radius: 30px;
+
+    background: #dfdfe2;
+    border-radius: 5px;
+    color: #157a37;
+    width:40px; 
+    height:30%;
+    
+    padding: 5px;
+    font-size: 10px;
+    font-family: BloggerBold;
+}
+.timer-buttons:hover{
+    box-shadow:0px 0px 3px 3px whitesmoke;
+    background: #dfdfe2;
+}
+
+#warning-text {
+    height: 50px;
+    font-size: 20px;
+    font-family: BloggerBold;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 35px;
+}
+.team {
+    font-family: Lucky;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    color: whitesmoke;
+}
+.score {
+    border-radius: 5px;
+    background: black;
+    margin: 5px 0px 15px 0px;
+   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    font-family: Timer;
+    font-size: 55px;
+    color: #B9F2CD;
+}
+.score-container {
+    width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container-child {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.guest-button, .home-button {
+    border-radius:100%;
+    text-align: center;
+    width:40px;
+    height: 40px;
+    border:2px solid #B9F3CD;
+    background: #157A37;
+    color: #B9F3CD;
+    font-size: 18px;
+    font-family: BloggerBold;
+}
+.guest-button:hover, .home-button:hover{
+    box-shadow:0px 0px 3px 3px whitesmoke;
+}, 

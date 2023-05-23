@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="control-container">
+            
+                <button id="newgame-button" >Start Game</button>
+                <button id="pause-button" >Pause</button>
+        
+            <div class="timer-container">
+                <h1 id="timer" >00:00:00</h1>
+        
+                <div class="timer-button-container">
+                    <button class="timer-buttons" id = "add-minute1" >+5</button>
+                    <button class="timer-buttons"  id = "add-minute2" >+15</button>
+                    <button class="timer-buttons" id ="add-minute3" >+30</button>
+                </div>
+            </div>
+        </div>
+        <div id = "warning-text"></div>
+        <div class="score-container">
+            <div class="score-container-child">
+                <h3 class="team">HOME</h3>
+                <h1 class="score" id="home-score">0</h1>
+                <div class="score-buttons">
+                     <button class = "home-button" >+1</button>
+                     <button class = "home-button" >+2</button>
+                     <button class = "home-button" >+3</button>
+                </div>
+            </div>
+            <div class="score-container-child">
+                <h3 class="team">GUEST</h3>
+                 <h1 class="score" id="guest-score">0</h1>
+                 <div class="score-buttons">
+                     <button class = "guest-button" >+1</button>
+                     <button class = "guest-button" >+2</button>
+                     <button class = "guest-button" >+3</button>
+                 </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
