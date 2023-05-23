@@ -78,7 +78,7 @@ function newGame() {
         newGameButton.style.color = '#157A37'
         gameToggle = "off"
         scoreBoard.textContent = "00:00:00"
-        
+        clock = 0
         pauseButton.innerText = "Pause"
         pauseToggle = "off" //shows game is back on
         pauseButton.style.background = '#FFD88A'
